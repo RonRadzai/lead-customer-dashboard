@@ -1,0 +1,66 @@
+{
+  "name": "lead-customer-dashboard",
+  "version": "1.0.0",
+  "description": "Lead pipeline, new-user triage, and consolidated customer activity dashboard with mocked Calendly, Zoom, Zendesk, Outlook, and shared-drive CSV integrations.",
+  "author": "Ronald Radzai",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RonRadzai/lead-customer-dashboard"
+  },
+  "homepage": ".",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "seed": "node scripts/seed.js",
+    "dev": "concurrently -k -n api,web -c blue,green \"npm:server\" \"npm:start\"",
+    "server": "node src/server.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test:server": "node --test \"test/**/*.test.js\"",
+    "screenshots": "node scripts/screenshots.js"
+  },
+  "dependencies": {
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^13.5.0",
+    "better-sqlite3": "^12.8.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.3.2",
+    "helmet": "^8.1.0",
+    "node-cron": "^4.2.1",
+    "node-fetch": "^2.7.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.5",
+    "playwright-core": "^1.62.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "proxy": "http://localhost:3002",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

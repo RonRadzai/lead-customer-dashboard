@@ -1,0 +1,17 @@
+{
+  "sessions": [
+    { "customer_email": "grace.oyelaran@example.com", "customer_name": "Grace Oyelaran", "org_name": "Cedar Hollow Animal Rescue", "days_ago": 4,
+      "issues": [{ "platform": "Donation Forms", "status": "solved", "description": "Walked through adding a tribute gift option to the main form." }] },
+    { "customer_email": "ingrid.solberg@example.com", "customer_name": "Ingrid Solberg", "org_name": "Saltmarsh Coastal Trust", "days_ago": 2,
+      "issues": [{ "platform": "Reporting", "status": "pending", "description": "Monthly recurring report totals did not match the bank deposit." },
+                 { "platform": "Email", "status": "solved", "description": "Receipt emails were landing in spam for one domain." }] },
+    { "customer_email": "hank.morrow@example.com", "customer_name": "Hank Morrow", "org_name": "Northwind Youth Orchestra", "days_ago": 15,
+      "issues": [{ "platform": "Events", "status": "solved", "description": "Ticket quantities were capped at 2; raised the limit." }] },
+    { "customer_email": "omar.haddad@example.com", "customer_name": "Omar Haddad", "org_name": "Bluegrass Literacy Alliance", "days_ago": 1,
+      "issues": [{ "platform": "Events", "status": "escalated", "description": "Registration form intermittently fails to save on mobile." }] },
+    { "customer_email": "wren.takahashi@example.com", "customer_name": "Wren Takahashi", "org_name": "Lantern Hill Hospice Friends", "days_ago": 33,
+      "issues": [{ "platform": "Accounts", "status": "solved", "description": "Reassigned account ownership after a staff change." }] },
+    { "customer_email": "yusuf.demir@example.com", "customer_name": "Yusuf Demir", "org_name": "Copperleaf Community Theater", "days_ago": 6,
+      "issues": [{ "platform": "Payments", "status": "flagged for review", "description": "Asked about settlement timing for a large gala." }] }
+  ]
+}

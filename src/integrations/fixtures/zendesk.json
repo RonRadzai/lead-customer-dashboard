@@ -1,0 +1,11 @@
+{
+  "tickets": [
+    { "requester_email": "grace.oyelaran@example.com", "requester_name": "Grace Oyelaran", "subject": "Donation receipt template shows wrong logo", "status": "open", "created_days_ago": 2, "updated_days_ago": 1 },
+    { "requester_email": "grace.oyelaran@example.com", "requester_name": "Grace Oyelaran", "subject": "Export to spreadsheet missing a column", "status": "solved", "created_days_ago": 41, "updated_days_ago": 38 },
+    { "requester_email": "hank.morrow@example.com", "requester_name": "Hank Morrow", "subject": "Cannot reset password for a volunteer login", "status": "pending", "created_days_ago": 3, "updated_days_ago": 2 },
+    { "requester_email": "ingrid.solberg@example.com", "requester_name": "Ingrid Solberg", "subject": "Recurring gift schedule question", "status": "solved", "created_days_ago": 12, "updated_days_ago": 9 },
+    { "requester_email": "omar.haddad@example.com", "requester_name": "Omar Haddad", "subject": "Event registration form not saving", "status": "open", "created_days_ago": 1, "updated_days_ago": 1 },
+    { "requester_email": "dana.whitfield@example.com", "requester_name": "Dana Whitfield", "subject": "How do I add a second administrator?", "status": "new", "created_days_ago": 0, "updated_days_ago": 0 },
+    { "requester_email": "wren.takahashi@example.com", "requester_name": "Wren Takahashi", "subject": "Year-end statement request", "status": "closed", "created_days_ago": 66, "updated_days_ago": 60 }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "events": [
+    { "id": "mock-cal-1001", "name": "Product Demo (30 min)", "start_offset_hours": 27, "status": "active",
+      "invitees": [{ "name": "Theo Lindqvist", "email": "theo.lindqvist@example.com" }] },
+    { "id": "mock-cal-1002", "name": "Product Demo (30 min)", "start_offset_hours": 52, "status": "active",
+      "invitees": [{ "name": "Marisol Vega", "email": "marisol.vega@example.com" }] },
+    { "id": "mock-cal-1003", "name": "New User Training", "start_offset_hours": 22, "status": "active",
+      "invitees": [{ "name": "Luis Aranda", "email": "luis.aranda@example.com" }] },
+    { "id": "mock-cal-1004", "name": "Account Check-in", "start_offset_hours": 75, "status": "active",
+      "invitees": [{ "name": "Ingrid Solberg", "email": "ingrid.solberg@example.com" }] },
+    { "id": "mock-cal-1005", "name": "Fundraising Discussion", "start_offset_hours": 98, "status": "active",
+      "invitees": [{ "name": "Noel Fairweather", "email": "noel.fairweather@example.com" }] },
+    { "id": "mock-cal-1006", "name": "Product Demo (30 min)", "start_offset_hours": 49, "status": "canceled",
+      "invitees": [{ "name": "Bea Castellanos", "email": "bea.castellanos@example.com" }] }
+  ]
+}

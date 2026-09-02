@@ -1,0 +1,12 @@
+{
+  "meetings": [
+    { "id": "88011223344", "topic": "Administrator Onboarding Session", "start_offset_hours": 74, "duration": 60, "host_name": "Priya Natarajan",
+      "participants": [{ "name": "Dana Whitfield", "email": "dana.whitfield@example.com" }] },
+    { "id": "88011223355", "topic": "Reporting Walkthrough", "start_offset_hours": 30, "duration": 45, "host_name": "Priya Natarajan",
+      "participants": [{ "name": "Grace Oyelaran", "email": "grace.oyelaran@example.com" }] },
+    { "id": "88011223366", "topic": "Discovery Call", "start_offset_hours": 121, "duration": 30, "host_name": "Sam Okafor",
+      "participants": [{ "name": "Rafael Duarte", "email": "rafael.duarte@example.com" }] },
+    { "id": "88011223377", "topic": "Quarterly Account Review", "start_offset_hours": -20, "duration": 45, "host_name": "Avery Chen",
+      "participants": [{ "name": "Hank Morrow", "email": "hank.morrow@example.com" }] }
+  ]
+}

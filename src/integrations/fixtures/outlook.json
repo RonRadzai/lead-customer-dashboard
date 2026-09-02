@@ -1,0 +1,24 @@
+{
+  "calendar": [
+    { "id": "mock-ol-2001", "subject": "Renewal conversation", "host": "avery.chen@example.com", "host_name": "Avery Chen",
+      "start_offset_hours": 46, "duration_minutes": 30,
+      "attendees": [{ "name": "Grace Oyelaran", "email": "grace.oyelaran@example.com" }, { "name": "Avery Chen", "email": "avery.chen@example.com" }] },
+    { "id": "mock-ol-2002", "subject": "Follow-up: reporting questions", "host": "avery.chen@example.com", "host_name": "Avery Chen",
+      "start_offset_hours": 99, "duration_minutes": 30,
+      "attendees": [{ "name": "Ingrid Solberg", "email": "ingrid.solberg@example.com" }] },
+    { "id": "mock-ol-2003", "subject": "Team pipeline review", "host": "avery.chen@example.com", "host_name": "Avery Chen",
+      "start_offset_hours": 5, "duration_minutes": 45,
+      "attendees": [{ "name": "Sam Okafor", "email": "sam.okafor@example.com" }, { "name": "Jordan Blake", "email": "jordan.blake@example.com" }] },
+    { "id": "mock-ol-2004", "subject": "Intro call", "host": "sam.okafor@example.com", "host_name": "Sam Okafor",
+      "start_offset_hours": 71, "duration_minutes": 30,
+      "attendees": [{ "name": "Priyanka Rao", "email": "priyanka.rao@example.com" }] }
+  ],
+  "emails": [
+    { "team_member": "avery.chen@example.com", "contact": "marisol.vega@example.com", "direction": "sent", "days_ago": 6, "subject": "Following up on your inquiry" },
+    { "team_member": "avery.chen@example.com", "contact": "marisol.vega@example.com", "direction": "received", "days_ago": 5, "subject": "Re: Following up on your inquiry" },
+    { "team_member": "avery.chen@example.com", "contact": "marisol.vega@example.com", "direction": "sent", "days_ago": 2, "subject": "Demo times this week?" },
+    { "team_member": "sam.okafor@example.com", "contact": "theo.lindqvist@example.com", "direction": "sent", "days_ago": 9, "subject": "Pricing overview and next steps" },
+    { "team_member": "sam.okafor@example.com", "contact": "theo.lindqvist@example.com", "direction": "received", "days_ago": 8, "subject": "Re: Pricing overview and next steps" },
+    { "team_member": "priya.natarajan@example.com", "contact": "dana.whitfield@example.com", "direction": "sent", "days_ago": 0, "subject": "Welcome! Your onboarding plan" }
+  ]
+}
