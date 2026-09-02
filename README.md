@@ -2,8 +2,7 @@
 
 An internal sales and onboarding tool that tracks leads through a pipeline, triages new users on customer accounts, and pulls meetings, tickets, and support sessions into one view of each customer.
 
-<!-- DEMO GIF PLACEHOLDER: record docs/demo.gif against the seeded app and remove this comment. -->
-![Demo walkthrough (coming soon)](docs/demo.gif)
+![Demo walkthrough: dashboard, advancing a lead, new-user triage, and recent interactions](docs/demo.gif)
 
 | Leads pipeline | New users with triage flags |
 | --- | --- |
@@ -15,7 +14,7 @@ An internal sales and onboarding tool that tracks leads through a pipeline, tria
 
 Two more views are in [docs/screenshots](docs/screenshots): the dashboard and the meetings list.
 
-**Suggested GIF click path (30 to 45 seconds):** start on the Dashboard and point at the week strip of upcoming meetings. Open Leads, click a lead in the Contacted stage, and click the next stage on the pipeline bar. Go to New Users, open an administrator flagged "Full onboarding", and show the follow-up deadline and the Zoom meeting on the detail page. Finish on Recent Interactions and hover a row to show the mix of meetings, tickets, notes, and support sessions.
+The GIF is a scripted walkthrough recorded by [scripts/demo-gif.js](scripts/demo-gif.js) against the seeded app: the dashboard, advancing a lead on the pipeline bar, the New Users list with triage badges, an administrator's detail page, and Recent Interactions.
 
 ## What it does
 
@@ -85,6 +84,7 @@ What the scripts do:
 | `npm run build` | Production build of the frontend into `build/` |
 | `npm run test:server` | API smoke tests and triage unit tests |
 | `npm run screenshots` | Regenerate the README screenshots with a headless browser against a running instance |
+| `npm run demo-gif` | Re-record the README demo GIF with a headless browser (pure JavaScript, no ffmpeg) |
 
 ## Configuration
 
@@ -119,8 +119,9 @@ data/
 scripts/
   seed.js                Deterministic sample data
   screenshots.js         Headless-browser screenshots for the README
+  demo-gif.js            Scripted walkthrough recorded to docs/demo.gif
 test/                    API smoke tests and triage unit tests
-docs/screenshots/        Images used in this README
+docs/                    Screenshots and the demo GIF used in this README
 ```
 
 ## Roadmap
