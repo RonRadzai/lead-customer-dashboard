@@ -1,6 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#4f7cff"/>
-  <rect x="12" y="15" width="40" height="8" rx="4" fill="#ffffff"/>
-  <rect x="17" y="28" width="30" height="8" rx="4" fill="#ffffff" opacity="0.8"/>
-  <rect x="22" y="41" width="20" height="8" rx="4" fill="#ffffff" opacity="0.6"/>
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="64" height="64" rx="14" fill="#4f7cff"></rect>
+
+  <!-- Pipeline stages narrowing toward the outcome -->
+  <rect x="12" y="14" width="40" height="8" rx="4" fill="white"></rect>
+  <rect x="16" y="26" width="32" height="7" rx="3.5" fill="#dbe4ff"></rect>
+  <rect x="20" y="37" width="24" height="6" rx="3" fill="#c3d2ff"></rect>
+
+  <!-- Check circle -->
+  <circle cx="32" cy="52" r="6" fill="white"></circle>
+
+  <!-- Check mark -->
+  <path d="M29 52 L31 54 L35 49" stroke="#4f7cff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
 </svg>

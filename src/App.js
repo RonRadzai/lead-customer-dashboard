@@ -181,7 +181,7 @@ function Sidebar({ currentView, onNavigate, darkMode, onToggleDark, currentUser,
     <aside className="sidebar">
       <div className="sidebar-brand">
         <img src="/favicon.svg" alt="" className="sidebar-logo-img" />
-        <h2>Lead Dashboard</h2>
+        <h2>Leads &amp; Customers</h2>
       </div>
       <nav className="sidebar-nav">
         {navItems.map(item => (
